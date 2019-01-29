@@ -95,6 +95,8 @@ def main():
     Main execution script.
     """
 
+    print('demo 2')
+
     return
 
 

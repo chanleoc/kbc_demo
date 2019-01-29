@@ -11,7 +11,7 @@ node {
         /* This builds the actual image; synonymous to
          * docker build on the command line */
 
-        app = docker.build("kdsteam/kbc_demo")
+        app = docker.build("kbc_demo")
     }
 
     stage('Test image') {
